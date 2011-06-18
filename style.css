@@ -1,0 +1,26 @@
+.map {
+   width: 700px;
+   height:500px
+ }
+ 
+#navigation {
+ width: 700px;
+ height: 30px;
+ }
+ 
+.tab {
+	width: 50px;
+  height: 30px;
+  display: inline-block;
+  color: #d3d3d3;
+}
+ 
+.tab:hover {
+	background-color: #1e5b05;
+	color: #000000;
+}
+ 
+.tab_selected {
+	background-color: #1e5b05;
+	color: #000000;
+}
