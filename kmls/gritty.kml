@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Gritty Amsterdam route</name>
+  <description><![CDATA[A cycle around Amsterdam's fascinating dark side ]]></description>
+  <Style id="style2">
+    <LineStyle>
+      <color>CCCC33CC</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style8">
+    <LineStyle>
+      <color>CCCC33CC</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Line 3</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.901190,52.377514,0.000000
+        4.901276,52.376869,0.000000
+        4.899543,52.376724,0.000000
+        4.899600,52.376621,0.000000
+        4.899960,52.376419,0.000000
+        4.900439,52.376034,0.000000
+        4.900870,52.375629,0.000000
+        4.901109,52.375427,0.000000
+        4.901109,52.375263,0.000000
+        4.901034,52.375069,0.000000
+        4.900932,52.374855,0.000000
+        4.900809,52.374702,0.000000
+        4.900509,52.374409,0.000000
+        4.900283,52.374039,0.000000
+        4.900192,52.373695,0.000000
+        4.900262,52.373039,0.000000
+        4.900154,52.372986,0.000000
+        4.899591,52.373142,0.000000
+        4.898990,52.373299,0.000000
+        4.899377,52.373692,0.000000
+        4.898282,52.373997,0.000000
+        4.898647,52.374249,0.000000
+        4.898899,52.374527,0.000000
+        4.898486,52.374653,0.000000
+        4.898020,52.374741,0.000000
+        4.897569,52.374619,0.000000
+        4.897333,52.374428,0.000000
+        4.897344,52.374115,0.000000
+        4.897767,52.374004,0.000000
+        4.898223,52.373974,0.000000
+        4.897681,52.373577,0.000000
+        4.897215,52.373180,0.000000
+        4.896711,52.372753,0.000000
+        4.897719,52.372406,0.000000
+        4.897040,52.371819,0.000000
+        4.896775,52.371540,0.000000
+        4.900600,52.370541,0.000000
+        4.900690,52.369949,0.000000
+        4.901060,52.369560,0.000000
+        4.901980,52.369240,0.000000
+        4.903920,52.368469,0.000000
+        4.904230,52.368488,0.000000
+        4.906830,52.367561,0.000000
+        4.907434,52.367348,0.000000
+        4.908110,52.367367,0.000000
+        4.909194,52.367367,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Line 7</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style8</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.909215,52.367359,0.000000
+        4.918377,52.364098,0.000000
+        4.918849,52.363605,0.000000
+        4.919761,52.363369,0.000000
+        4.920319,52.362957,0.000000
+        4.922197,52.363094,0.000000
+        4.923034,52.363106,0.000000
+        4.923356,52.362965,0.000000
+        4.923540,52.362740,0.000000
+        4.923935,52.361797,0.000000
+        4.924568,52.360878,0.000000
+        4.925244,52.359974,0.000000
+        4.923050,52.359470,0.000000
+        4.922890,52.359718,0.000000
+        4.921320,52.359459,0.000000
+        4.921540,52.359638,0.000000
+        4.921290,52.359970,0.000000
+        4.920670,52.360081,0.000000
+        4.919920,52.359921,0.000000
+        4.916960,52.359600,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Café &#39;t Mandje</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308580338584/Cafe-t-Mandje-001.jpg" style="width:244px"><div><br>&nbsp;</div><div><span>Zeedijk is one of Amsterdam’s oldest
+streets, a melting pot of old brown bars with nicotine stained walls, slouching
+medieval buildings with tiny doorways and even a Buddhist Temple. It’s also home
+to </span><a href="http://www.cafetmandje.nl/">Café T Mandje</a><span>, which opened in 1927 and broke new ground as Amsterdam’s, and
+one of the world's, first openly gay bars.&nbsp;</span></div><div><span><b>•&nbsp;Zeedijk 63</b></span></div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>4.900997,52.374840,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Prostitute Information Centre</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308580466682/Oudekerk-001.jpg" style="width:244px"><div><br>&nbsp;</div><div><p><span>Prostitution is legalised and heavily
+regulated in the Red Light District of Amsterdam, known to locals as De Wallen.
+Set up by a former prostitute, the Prostitute Information Centre is located
+behind the Oude Kerk (Old Church, pictured) and is a good place to separate fact from
+fiction about the area and workers themselves. </span></p></p><p></p></p><p></p></p><p></p></p>
+
+<p><b><span>Hint:</span></b><span>
+Take NO photos in the Red light District and in some areas it may be better to
+dismount and push your bike</span></p></p><p></p></p><p></p></p><p></p></p></div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>4.897617,52.374603,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bulldog Cafe</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308580497240/Bulldog-Cafe-001.jpg" style="width:244px"><div><br>&nbsp;</div><div><p><span><a href="http://www.thebulldog.com/">The Bulldog</a> is just one of over 220
+coffeeshops licensed to sell Marijuana in Amsterdam. One in four visitors
+patronise coffeeshops during their time in Amsterdam, but most would be
+surprised to learn marijuana isn’t legalised in Holland- just ‘tolerated’.
+However, new legislation proposed by the Dutch government aims to restrict
+tourist access to the drugs.<br></span><span></span>•<b>&nbsp;</b><span style="font-family:arial, sans-serif;font-size:12px"><b>Oudezijds Voorburgwal 132</b></span></p></p></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>4.897714,52.373596,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hemp, Marijuana and Hash Museum</name>
+    <description><![CDATA[<div dir="ltr"><img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308580537652/Hemp-Museum-001.jpg" style="width:244px"></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr">The <a href="http://hashmuseum.com/">Hemp, Hash and Marijuana museum</a> is one of the quirkier museums open in the city. The collection focuses on the industrial background, medicinal uses and cultural impact of the crop in different societies, and offers an alternative experience to visiting a coffeeshop.</div><div dir="ltr"><b>•&nbsp;Oudezijds Achterburgwal 148</b></div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>4.897048,52.371807,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>De Hollandsche Schouwburg</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308580571812/De-Hollandsche-Schouwburg-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>The <a href="http://www.hollandscheschouwburg.nl/">Hollandsche Schouwburg</a> was an old theatre in the Jewish
+neighbourhood that became a processing centre for the city’s Jewish community
+during the German occupation of Holland during World War Two. The eerie site,
+partially demolished, now has a moving memorial to the city’s 6700 Jews who
+were sent from here.&nbsp;</div><div><b>•&nbsp;Plantage Middenlaan 2</b>4</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>4.911178,52.366489,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>De Schree</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308581356984/De-Schree-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>The Scream is a monument to free speech in Holland, designed
+to honour outspoken filmmaker and social critic Theo Van Gogh, who was brutally
+murdered while cycling to work one morning near Oosterpark. His death sparked
+immediate peace protests across the city and is an important part of the city’s
+modern history.&nbsp;</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>4.921274,52.359550,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Slavery Monument</name>
+    <description><![CDATA[<div dir="ltr"><img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308580643053/Slavery-Monument-001.jpg" style="width:244px"></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr">The Slavery monument was designed by a Suriname artist Erwin de Vries was unveiled in 2002 to widespread criticism. Many believe it is located in a poor position and is not a proper acknowledgment of the Dutch Colonial practise of slavery, which was abolished in 1863. Judge the surroundings for yourself.</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>4.916993,52.359627,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

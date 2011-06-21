@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Amsterdam Jordaan Explorer route</name>
+  <description><![CDATA[Explore the leafy canals, bohemian lifestyle, secret history and terrace cafes of Amsterdam's favourite residential neighbourhood]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <LineStyle>
+      <color>CCCC33CC</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <LineStyle>
+      <color>CCCC33CC</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Guardian/Pix/pictures/2011/01/24/pointyImage_for_travelMap.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Houseboat Museum</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308593227564/Houseboat-Museum-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>Thousands of permanently moored houseboats line Amsterdam’s UNESCO listed Canals. For those curious to see what life is like on board, the Hendrika Marie, an old commercial vessel has been converted into a <a href="http://www.google.co.uk/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBsQFjAA&amp;url=http%3A%2F%2Fwww.houseboatmuseum.nl%2F&amp;ei=s4X_TYeTGpCbhQfJtNSbCw&amp;usg=AFQjCNGYZEwU6Jf7LMx1RTMGShuBMdDCBQ">Houseboat Museum</a>.  <div>•&nbsp;<span style="font-family:arial, sans-serif;font-size:12px;border-collapse:collapse;line-height:16px"><b>Prinsengracht 296</b></span></div></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>4.882511,52.370083,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Joep Buijs Art gallery</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308593166965/Joep-Buijs-Art-gallery-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>It’s a toss up what will catch your eye first- the gorgeous black Labrador curled up outside in the sun or the popping rainbow coloured artworks of <a href="http://joepbuijs.nl/">Joep Buijs</a>, who paints stunning portraits in his shopfront studio on Hazenstraat. The Jordaan is home to a close creative community of Dutch artists and designers, with their studios and showrooms lining the streets. <div>•&nbsp;<b>Hazenstraat 10</b></div></div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>4.879947,52.370682,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Homomonument</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308593135376/Homomonumnet-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>Just behind Ann Frank house and the Westerkerk is the Homomonument, the city’s memorial to those homosexuals who suffered during the German occupation of Holland during World War Two. Elevated in the water, it is constantly covered in wreaths and continues to be an important pilgrimage point for gay visitors to the city.</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>4.884796,52.374428,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Line 2</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style11</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.884893,52.374638,0.000000
+        4.883670,52.375057,0.000000
+        4.884549,52.375984,0.000000
+        4.884088,52.376148,0.000000
+        4.884673,52.376747,0.000000
+        4.884249,52.376678,0.000000
+        4.883873,52.377327,0.000000
+        4.883627,52.377747,0.000000
+        4.883278,52.378342,0.000000
+        4.884957,52.378647,0.000000
+        4.884571,52.379593,0.000000
+        4.884179,52.380360,0.000000
+        4.883831,52.381176,0.000000
+        4.886282,52.381535,0.000000
+        4.888133,52.380455,0.000000
+        4.887097,52.379402,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Anne Frank House</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308592857175/Anne-Frank-House-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>Anne Frank and her family hid in a secret annexe above her family’s workshop for 25 months before being found by the Germans. The secret annexe is open to the public, however be sure to stay to listen to the bells of the church next door on the quarter hour, which Anne reflected on in her diary. <a href="http://www.google.co.uk/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CEIQFjAA&amp;url=http%3A%2F%2Fwww.annefrank.org%2F&amp;ei=54b_TdqqEYm3hQe4koWbCw&amp;usg=AFQjCNEJiMvsLQSvGWU7xZe8ZVFMJYvqJw">Website</a><div>•&nbsp;<span style="font-family:arial, sans-serif;font-size:12px;border-collapse:collapse;line-height:16px"><b>Prinsengracht 267</b></span></div></div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>4.883916,52.375187,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe &#39;t Smalle</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308593100137/Cafe-t-Smalle-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>While the rest of the world has their beer gardens, the Dutch have their terraces. During the rare sunny day in Amsterdam, locals and tourists compete for a space in the sun. <a href="http://www.google.co.uk/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBsQFjAA&amp;url=http%3A%2F%2Fwww.t-smalle.nl%2F&amp;ei=M4f_TfjRCsa3hAfX6YWkCw&amp;usg=AFQjCNGi7eEvK1U_oXe9KpblkmiPZOYWIw">Café ‘t Smalle</a>’s canal-front terrace with a small pontoon remains a neighbourhood favourite for locals in the Jordaan.<div>•&nbsp;<span style="font-family:arial, sans-serif;font-size:12px;border-collapse:collapse;line-height:16px"><b>Egelantiersgracht 12</b></span></div></div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>4.884174,52.376690,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pianola Museum</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308593013514/Pianola-Museum-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>One of Amsterdam’s best loved quirky museums; the <a href="http://www.google.co.uk/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CCIQFjAA&amp;url=http%3A%2F%2Fwww.pianola.nl%2F&amp;ei=fYf_Tfv_Ic-xhQeg1uCjCw&amp;usg=AFQjCNGpva2wy2q7mBNdtm8g6vjDtRiN1Q">Pianola museum</a> is a labour of love for the automatic pianos that were popular a century ago. The Museum is only open one day a week, but during summer concerts are frequently held on weekends. <div>•&nbsp;<span style="font-family:arial, sans-serif;font-size:12px;border-collapse:collapse;line-height:16px"><b>Westerstraat 106</b></span></div></div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>4.883734,52.378403,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Line 3</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.882393,52.370125,0.000000
+        4.880612,52.369541,0.000000
+        4.879990,52.370647,0.000000
+        4.879678,52.371010,0.000000
+        4.878466,52.372791,0.000000
+        4.880494,52.373283,0.000000
+        4.882522,52.373844,0.000000
+        4.882967,52.373974,0.000000
+        4.883439,52.374016,0.000000
+        4.884742,52.373974,0.000000
+        4.884764,52.374157,0.000000
+        4.884737,52.374344,0.000000
+        4.884844,52.374542,0.000000
+        4.884877,52.374592,0.000000
+        4.884882,52.374645,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Jwo Lekkernijen Deli</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308592964548/Jwo-Lekkernijen-Deli-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>Order a sandwich, try out a few slices of real Dutch cheese and pull up a stool at <a href="http://www.google.co.uk/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBgQFjAA&amp;url=http%3A%2F%2Fwww.jwo-lekkernijen.nl%2F&amp;ei=P4j_TajBLNOHhQeL08WRBA&amp;usg=AFQjCNEn0EI-hHUIBWKdyVzE4pEjyfRcVg">Jwo Lekkernijen</a>, a friendly and traditional Dutch deli and sandwich shop in the Jordaan. The bench and stools facing the street are the perfect place to people watch.<div>• <b>Goudsbloemdwarsstraat 1 (corner of Willemstraat)</b></div></div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>4.883863,52.381153,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Noordmarkt</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>4.886979,52.379463,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Noordemarkt</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308592895414/Noordemarkt-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>Held every Monday and Saturday, the Noordermarkt market is one of the most popular markets, selling secondhand goods, fresh produce and gifts to a mainly local crowd. Even when the market is not on, visit the Noorderkerk, the old church which dates back to 1623.</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>4.887028,52.379452,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

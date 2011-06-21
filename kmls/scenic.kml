@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Scenic Amsterdam route</name>
+  <description><![CDATA[]]></description>
+  <Style id="style10">
+    <LineStyle>
+      <color>CCCC33CC</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style1">
+    <LineStyle>
+      <color>CCCC33CC</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style5">
+    <LineStyle>
+      <color>CCCC33CC</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Travel/Pix/site_furniture/2011/06/21/bike1.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Travel/Pix/site_furniture/2011/06/21/bike2.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Travel/Pix/site_furniture/2011/06/21/bike3.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Travel/Pix/site_furniture/2011/06/21/bike4.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Travel/Pix/site_furniture/2011/06/21/bike6.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Travel/Pix/site_furniture/2011/06/21/bike7.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://image.guardian.co.uk/sys-images/Travel/Pix/site_furniture/2011/06/21/bike5.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Line 1</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.887553,52.379910,0.000000
+        4.885268,52.377361,0.000000
+        4.882983,52.374893,0.000000
+        4.882886,52.374016,0.000000
+        4.885236,52.373955,0.000000
+        4.885826,52.373791,0.000000
+        4.886234,52.373573,0.000000
+        4.886749,52.373444,0.000000
+        4.889131,52.373180,0.000000
+        4.890676,52.373161,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Line 2</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.890697,52.373150,0.000000
+        4.890836,52.371513,0.000000
+        4.890633,52.371105,0.000000
+        4.890343,52.370739,0.000000
+        4.889549,52.369724,0.000000
+        4.889334,52.368690,0.000000
+        4.889023,52.368538,0.000000
+        4.888873,52.368366,0.000000
+        4.888809,52.368237,0.000000
+        4.888895,52.368137,0.000000
+        4.889367,52.367805,0.000000
+        4.889721,52.367458,0.000000
+        4.889871,52.367348,0.000000
+        4.890091,52.367294,0.000000
+        4.891443,52.367119,0.000000
+        4.892457,52.367077,0.000000
+        4.893090,52.367134,0.000000
+        4.893454,52.367130,0.000000
+        4.894549,52.367012,0.000000
+        4.895681,52.366978,0.000000
+        4.897016,52.367043,0.000000
+        4.898304,52.367008,0.000000
+        4.898926,52.366947,0.000000
+        4.899468,52.366791,0.000000
+        4.899913,52.366600,0.000000
+        4.900213,52.366356,0.000000
+        4.900535,52.365570,0.000000
+        4.901662,52.363441,0.000000
+        4.903057,52.363697,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Line 3</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.903067,52.363705,0.000000
+        4.902016,52.365746,0.000000
+        4.905342,52.366364,0.000000
+        4.906447,52.366302,0.000000
+        4.906951,52.366253,0.000000
+        4.907316,52.366138,0.000000
+        4.908121,52.365864,0.000000
+        4.908775,52.366539,0.000000
+        4.909387,52.367207,0.000000
+        4.911811,52.366398,0.000000
+        4.913743,52.365696,0.000000
+        4.915642,52.365070,0.000000
+        4.917498,52.364399,0.000000
+        4.918377,52.364037,0.000000
+        4.918946,52.363579,0.000000
+        4.919150,52.363773,0.000000
+        4.919558,52.363945,0.000000
+        4.920309,52.364239,0.000000
+        4.921424,52.364876,0.000000
+        4.922497,52.365517,0.000000
+        4.922991,52.365303,0.000000
+        4.923366,52.365540,0.000000
+        4.923710,52.365753,0.000000
+        4.923227,52.365955,0.000000
+        4.925179,52.366955,0.000000
+        4.926049,52.366463,0.000000
+        4.925201,52.366947,0.000000
+        4.925566,52.367443,0.000000
+        4.919150,52.369637,0.000000
+        4.916521,52.370537,0.000000
+        4.915695,52.370819,0.000000
+        4.915223,52.371143,0.000000
+        4.915738,52.371407,0.000000
+        4.916307,52.371590,0.000000
+        4.916908,52.371780,0.000000
+        4.917476,52.372036,0.000000
+        4.919246,52.373150,0.000000
+        4.920191,52.373718,0.000000
+        4.920652,52.373993,0.000000
+        4.920942,52.374359,0.000000
+        4.921714,52.376308,0.000000
+        4.918431,52.376774,0.000000
+        4.915127,52.377205,0.000000
+        4.913914,52.377335,0.000000
+        4.910889,52.377537,0.000000
+        4.909987,52.377617,0.000000
+        4.909902,52.377373,0.000000
+        4.910073,52.376961,0.000000
+        4.910266,52.376602,0.000000
+        4.910578,52.375847,0.000000
+        4.910309,52.375488,0.000000
+        4.909902,52.375278,0.000000
+        4.909451,52.375271,0.000000
+        4.909022,52.375343,0.000000
+        4.908228,52.375591,0.000000
+        4.906597,52.375999,0.000000
+        4.905524,52.376209,0.000000
+        4.904548,52.376495,0.000000
+        4.903990,52.376713,0.000000
+        4.903926,52.377090,0.000000
+        4.903368,52.377308,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Entrance to the Begijnhof</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308590820443/Begijnhof-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>Look for the small sandstone arch labelled ‘Begijnhof’ and enter into the internal courtyard or Dutch Hofjes, built in the 1465 as a secure community for unmarried women. Visitors are welcome during daylight hours and it is a chance to glimpse the hidden beauty behind Amsterdam’s plain building facades.&nbsp;
+<div>• <b>Nieuwezijds Voorburgwal 373</b></div></div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>4.889442,52.367924,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Floating Flower Market</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308589867109/Bloemenmarkt-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>No matter what the season, Holland’s trademark Tulips bloom at the Floating Flower market along the Singel. Competition keeps prices low so this is a good place to shop for souvenirs and taste Dutch cheese.</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>4.891191,52.366997,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Magere Bridge and Amstel Locks</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308589916621/Magere-Bridge-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>Known as the ‘Skinny Bridge’, the Magere drawbridge stretches across the Amstel River and provides an excellent view of the nearby lock system. At night, it is lit with fairy lights, and is a favourite spot to watch New Year’s Eve fireworks.</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>4.902349,52.363609,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Artis Zoo</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308589949280/Artis-Zoo-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>As you cycle along, keep an eye to the left for the pink
+flamingos and dinosaur statues at the <a href="http://www.google.co.uk/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBgQFjAA&amp;url=http%3A%2F%2Fwww.amsterdammuseum.nl%2F&amp;rct=j&amp;q=Amsterdam%20Historisch%20Museum&amp;ei=8nH_TcSTOo6xhAfyuf2iCw&amp;usg=AFQjCNFfmHDUIyttrdmxkxlnEeflBebHlg">Artis Zoo</a>. A new baby elephant is due for
+delivery this month, so keep an eye on the zoo website for news of its imminent
+arrival.</div><div>• &nbsp;<span style="font-family:arial,sans-serif;font-size:12px;border-collapse:collapse;line-height:16px"><b>Plantage Kerklaan 38-40</b></span></div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>4.915631,52.365669,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brouwerij &#39;t IJ</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308590034552/Windmill-Brewery-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>The Gooyer Windmill has what every good windmill needs- a microbrewery right next to it. When the sun is out, order a pint of traditional Dutch brew and sit in the courtyard of <a href="http://www.google.co.uk/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CCEQFjAA&amp;url=http%3A%2F%2Fwww.brouwerijhetij.nl%2F&amp;ei=fYD_TeehA8WXhQeMyY3TAQ&amp;usg=AFQjCNFjqjJZDtm-PXb_wj3nJcGZKhHpKw">Brouwerij ‘t IJ</a>. </div><div>•&nbsp;<span style="font-family:arial,sans-serif;font-size:12px;border-collapse:collapse;line-height:16px"><b>Funenkade 7</b></span></div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>4.926167,52.366444,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Waterfront</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308590091258/Amsterdam-Waterfront-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>While Amsterdam’s Canal belt might be UNESCO Heritage listed, it’s harbourside is also stunning, lined with eclectic buildings and daring modern architecture. Those wanting to extend their ride should also consider detouring the popular and exclusive residential island known as Javaeiland, accessible by going straight instead of left onto Piet Heinkade</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>4.920545,52.369087,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Louise Wentstraat</name>
+    <description><![CDATA[<img src="http://static.guim.co.uk/sys-images/Travel/Pix/gallery/2011/6/20/1308589990394/Hidden-gardens-001.jpg" style="width:244px"><div><br>&nbsp;</div><div>Halfway down Sarphatistraat is a small entryway and tunnel to the river and apartments. Cycle through to the hidden courtyard by the river for another glimpse at inner beauty of this residential area.</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>4.923313,52.365540,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

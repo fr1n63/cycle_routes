@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
@@ -14,107 +13,107 @@
   //idea is that we use polylines to, in steps draw a series of lat-lngs together, as described here: http://code.google.com/apis/maps/documentation/javascript/overlays.html#PolylineOptions
   //if we define a function that times this process, it could appear like an animation
 
-  $(document).ready (function(){
-    
-    initialize();
-    $('.map').hide();
-    $('#map_1').show();
-       
-    //manage clicks 
-    $('.tab').click(function () {
-      number = $(this).attr("id").replace('tab_', '')
-      manage_tabs(number);
-      manage_maps(number);
-      show_route_details(number);
-    });
-    
-  });
- 
-  var manage_tabs = function (number) {
-    $('.tab').removeClass('tab_selected');
-    $('#tab_' + number).addClass('tab_selected');
-  }
-  
-  var manage_maps = function (number) {   
-    $('.map').hide();
-    $('#map_' + number).show();
-  }
-  
-  var show_route_details = function(number) {
-    route_name = "route_" + number
-    details = routes_data[route_name]
-    $("#route_details").html(
-      "<span>" + "Name: " + details["name"] + "</span></br>" + 
-      "<span>" + "Length: " + details["length"] + "</span></br>" + 
-      "<span>" + "Time: " + details["time"] + "</span></br>" + 
-      "<span>" + "Level: " + details["level"] + "</span></br>"
-    )
-  }
-  
-  var routes_data = {
-    route_1: {
-      name: "Cycle route 1",
-      length: "5 miles",
-      time: "3 hours",
-      level: "Easy",
-    },
-    route_2: {
-      name: "Cycle route 2",
-      length: "5 miles",
-      time: "1 hours",
-      level: "Easy",
-    },
-    route_3: {
-      name: "Cycle route 3",
-      length: "5 miles",
-      time: "7 hours",
-      level: "Easy",
-    },
-    route_4: {
-      name: "Cycle route 4",
-      length: "5 miles",
-      time: "12 hours",
-      level: "Easy",
-    }    
-  }
-  var initialize = function () {
-    var map_1_centre = new google.maps.LatLng(51.5421410, -0.1277350);
-    var map_2_centre = new google.maps.LatLng(51.5421410, -0.1277350);
-    var map_3_centre = new google.maps.LatLng(51.5421410, -0.1277350);
-    var map_4_centre = new google.maps.LatLng(51.5421410, -0.1277350);
-       
-    var myOptions = {
-      zoom: 13,
-      center: map_1_centre,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
-    
-    var map_1 = new google.maps.Map(document.getElementById("map_1"), myOptions)
-    var map_2 = new google.maps.Map(document.getElementById("map_2"), myOptions)
-    var map_3 = new google.maps.Map(document.getElementById("map_3"), myOptions)
-    var map_4 = new google.maps.Map(document.getElementById("map_4"), myOptions)
-    //bring in the kml layer
-    
-    var ctaLayer = new google.maps.KmlLayer('http://dl.dropbox.com/u/5403549/am_route_1.kml');
+	$(document).ready (function(){
+		
+		var maps = [];
+		var mapPanels = [];
+		var mapLayers = [];
+		var mapFiles = ["http://dl.dropbox.com/u/5403549/museum.kml", 
+									  "http://dl.dropbox.com/u/5403549/gritty.kml",
+									  "http://dl.dropbox.com/u/5403549/explorer.kml", 
+									  "http://dl.dropbox.com/u/5403549/scenic.kml"];
 
-    ctaLayer.setMap(map_1);         
-  }
- 
+		var showFirstLayer = function (){
+			console.log("init complete")
+			showLayer(0);
+			$('#tab_0').click();
+		}
 
+		var showLayer = function (index){
+			for(var i = 0; i < mapPanels.length; i++)	{
+			  if (i == index) {
+					mapPanels[i].show();
+				}
+				else {
+					mapPanels[i].hide();
+				}
+			}
+		}
+		var initialize = function (aFunctionToCallOnCompletion) {	
+			var mapsLoaded = 0;
+			var handleMapLayerLoaded = function () { 
+				console.log("loaded a map, total is now " + (mapsLoaded + 1));
+				if (++mapsLoaded == mapFiles.length) {
+	 				aFunctionToCallOnCompletion();
+	 			}
+	 			
+ 			}
+			//for each kml file
+			//create a map object in the appropriate panel 
+			//and create a new layer into which we will load the kml
+			//for (var i = 0; i < 1; i++) {
+			for (var i = 0; i < mapFiles.length; i++) {		
+				var panel = $('#map_' + i);
+				console.log("panel at position " + i);
+	
+				//this is the line that seems to fix the problem of using 'panel' instead of refetching the DOM element as we are here
+				var map = new google.maps.Map(document.getElementById("map_" + i), myOptions);
+				var myOptions = {
+		      zoom: 13,
+		      mapTypeId: google.maps.MapTypeId.ROADMAP
+		    }
+				var layer = new google.maps.KmlLayer(mapFiles[i]); 
+			  layer.setMap(map);
+				google.maps.event.addListener(layer, "metadata_changed", handleMapLayerLoaded);	
+				maps.push(map);
+				mapLayers.push(layer);
+				mapPanels.push(panel);				
+			}
+			console.log(mapsLoaded);
+	  }
+			
+		initialize(function(){ showFirstLayer() });
+		
+		//manage clicks 
+		$('.tab').click(function () {
+			var number = $(this).attr("id").replace('tab_', '')
+			$('.tab').removeClass('tab_selected');
+			$('#tab_' + number).addClass('tab_selected');	
+			showLayer(number);
+		//show_route_details(number);
+		});
+	});
+
+	
+	   	   		
+
+  // var show_route_details = function(number) {
+  //     route_name = "route_" + number
+  //     details = routes_data[route_name]
+  //     $("#route_details").html(
+  //       "<span>" + "Name: " + details["name"] + "</span></br>" + 
+  //       "<span>" + "Length: " + details["length"] + "</span></br>" + 
+  //       "<span>" + "Time: " + details["time"] + "</span></br>" + 
+  //       "<span>" + "Level: " + details["level"] + "</span></br>"
+  //     )
+  //   }
+
+  
+ 
 </script>
 
 </head>
 <body>
+  <div id="map_0" class="map"></div>
   <div id="map_1" class="map"></div>
   <div id="map_2" class="map"></div>
   <div id="map_3" class="map"></div>
-  <div id="map_4" class="map"></div>
 
   <div id="navigation">
+    <div id="tab_0" class="tab"></div>
     <div id="tab_1" class="tab"></div>
     <div id="tab_2" class="tab"></div>
     <div id="tab_3" class="tab"></div>
-    <div id="tab_4" class="tab"></div>
   </div>
   
   <div id="route_details">
