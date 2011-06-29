@@ -1,105 +1,66 @@
 <html>
 <head>
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-  
 <link rel="stylesheet" href="style.css" type="text/css"  /> 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.xml2json.js"></script>
+<script type="text/javascript" src="underscore.js"></script>
+
 <script type="text/javascript"
     src="http://maps.google.com/maps/api/js?sensor=false">
 </script>
 <script type="text/javascript">
-  //https://sites.google.com/site/gmapstips/export-my-map-as-kml
-  //has a neat trick for extracting raw kml from a my map 
-  //idea is that we use polylines to, in steps draw a series of lat-lngs together, as described here: http://code.google.com/apis/maps/documentation/javascript/overlays.html#PolylineOptions
-  //if we define a function that times this process, it could appear like an animation
 
 	$(document).ready (function(){
 		
-		var maps = [];
-		var mapPanels = [];
-		var mapLayers = [];
-		var mapFiles = ["http://dl.dropbox.com/u/5403549/museum.kml", 
-									  "http://dl.dropbox.com/u/5403549/gritty.kml",
-									  "http://dl.dropbox.com/u/5403549/explorer.kml", 
-									  "http://dl.dropbox.com/u/5403549/scenic.kml"];
-
-		var showFirstLayer = function (){
-			console.log("init complete")
-			showLayer(0);
-			$('#tab_0').click();
-		}
-
-		var showLayer = function (index){
-			for(var i = 0; i < mapPanels.length; i++)	{
-			  if (i == index) {
-					mapPanels[i].show();
-				}
-				else {
-					mapPanels[i].hide();
-				}
-			}
-		}
-		var initialize = function (aFunctionToCallOnCompletion) {	
-			var mapsLoaded = 0;
-			var handleMapLayerLoaded = function () { 
-				console.log("loaded a map, total is now " + (mapsLoaded + 1));
-				if (++mapsLoaded == mapFiles.length) {
-	 				aFunctionToCallOnCompletion();
-	 			}
-	 			
- 			}
-			//for each kml file
-			//create a map object in the appropriate panel 
-			//and create a new layer into which we will load the kml
-			//for (var i = 0; i < 1; i++) {
-			for (var i = 0; i < mapFiles.length; i++) {		
-				var panel = $('#map_' + i);
-				console.log("panel at position " + i);
-	
-				//this is the line that seems to fix the problem of using 'panel' instead of refetching the DOM element as we are here
-				var map = new google.maps.Map(document.getElementById("map_" + i), myOptions);
-				var myOptions = {
-		      zoom: 13,
-		      mapTypeId: google.maps.MapTypeId.ROADMAP
-		    }
-				var layer = new google.maps.KmlLayer(mapFiles[i]); 
-			  layer.setMap(map);
-				google.maps.event.addListener(layer, "metadata_changed", handleMapLayerLoaded);	
-				maps.push(map);
-				mapLayers.push(layer);
-				mapPanels.push(panel);				
-			}
-			console.log(mapsLoaded);
-	  }
-			
-		initialize(function(){ showFirstLayer() });
+		var APP = {}
 		
-		//manage clicks 
-		$('.tab').click(function () {
-			var number = $(this).attr("id").replace('tab_', '')
-			$('.tab').removeClass('tab_selected');
-			$('#tab_' + number).addClass('tab_selected');	
-			showLayer(number);
-		//show_route_details(number);
-		});
+		loadMap(APP);	
+		loadMarkers(APP["map"])
+		
 	});
-
+			
+	var loadMap = function (app) {
+		var map = new google.maps.Map(document.getElementById("map_0"), myOptions);
+		var myOptions = {
+      zoom: 13,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+		app["map"] = map
+	}
+		
+	var loadMarkers = function (map) {
+		$.get('kmls/explorer.kml', function(xml) {
+			json = $.xml2json(xml);
+			placemarks = (json["Document"]["Placemark"]);
+			_.each(placemarks, function (placemark) {
+				if (placemark["Point"] !== undefined) {
+					name = placemark["name"];			
+					lat_lng = parse_lat_lng_string(placemark)			
+					myLatlng = new google.maps.LatLng(lat_lng[0],lat_lng[1]);
+					var marker = new google.maps.Marker({
+					      position: myLatlng,
+					      map: map, 
+					      title: placemark["Point"]["name"]
+					  });
+				}
+			});
+		});
+	}
 	
-	   	   		
-
-  // var show_route_details = function(number) {
-  //     route_name = "route_" + number
-  //     details = routes_data[route_name]
-  //     $("#route_details").html(
-  //       "<span>" + "Name: " + details["name"] + "</span></br>" + 
-  //       "<span>" + "Length: " + details["length"] + "</span></br>" + 
-  //       "<span>" + "Time: " + details["time"] + "</span></br>" + 
-  //       "<span>" + "Level: " + details["level"] + "</span></br>"
-  //     )
-  //   }
-
-  
- 
+	//takes a placemark (in string format) from the kml and returns a lat lng array
+	var parse_lat_lng_string = function (placemark) {
+		lat_lng_string_array = placemark["Point"]["coordinates"].split(',', 2)
+		return numArray(lat_lng_string_array);
+	}
+	
+	//returns an array of numbers from an array of strings
+	var numArray = function (string_array) {
+		var num_array = [];
+		for (i=0; i<string_array.length; i++) {
+			num_array.push(Number(string_array[i]))
+		}
+		return num_array
+	}
 </script>
 
 </head>
@@ -119,5 +80,3 @@
   <div id="route_details">
 </body>
 </html>
-
-
